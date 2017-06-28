@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB9AB162271ED3C143805C6 /* Pods_kinemai_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86591667C42B634B4AB25F84 /* Pods_kinemai_ios.framework */; };
+		514022101EF68CBD00B8B6C5 /* LibraryItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514021FB1EF68CBD00B8B6C5 /* LibraryItemViewController.swift */; };
+		514022111EF68CBD00B8B6C5 /* LibraryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514021FD1EF68CBD00B8B6C5 /* LibraryListViewController.swift */; };
+		514022121EF68CBD00B8B6C5 /* CameraScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514022001EF68CBD00B8B6C5 /* CameraScreenAssembly.swift */; };
+		514022131EF68CBD00B8B6C5 /* CameraScreenModel+NextLevel delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514022021EF68CBD00B8B6C5 /* CameraScreenModel+NextLevel delegates.swift */; };
+		514022141EF68CBD00B8B6C5 /* CameraScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514022031EF68CBD00B8B6C5 /* CameraScreenModel.swift */; };
+		514022151EF68CBD00B8B6C5 /* CameraScreenModelEventHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514022041EF68CBD00B8B6C5 /* CameraScreenModelEventHandlers.swift */; };
+		514022161EF68CBD00B8B6C5 /* NextLevelDelegate+DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514022051EF68CBD00B8B6C5 /* NextLevelDelegate+DefaultImplementations.swift */; };
+		514022171EF68CBD00B8B6C5 /* NextLevelDeviceDelegate+DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514022061EF68CBD00B8B6C5 /* NextLevelDeviceDelegate+DefaultImplementations.swift */; };
+		514022181EF68CBD00B8B6C5 /* NextLevelVideoDelegate+DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514022071EF68CBD00B8B6C5 /* NextLevelVideoDelegate+DefaultImplementations.swift */; };
+		514022191EF68CBD00B8B6C5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514022091EF68CBD00B8B6C5 /* CameraViewController.swift */; };
+		5140221A1EF68CBD00B8B6C5 /* CameraViewControllerEventHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5140220A1EF68CBD00B8B6C5 /* CameraViewControllerEventHandlers.swift */; };
+		5140221B1EF68CBD00B8B6C5 /* CameraScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5140220C1EF68CBD00B8B6C5 /* CameraScreenViewModel.swift */; };
+		5140221C1EF68CBD00B8B6C5 /* TimeInterval+textCaptureTimeLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5140220D1EF68CBD00B8B6C5 /* TimeInterval+textCaptureTimeLeft.swift */; };
+		5140221D1EF68CBD00B8B6C5 /* VideoFragmentSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5140220F1EF68CBD00B8B6C5 /* VideoFragmentSelectionViewController.swift */; };
+		5140221F1EF692AE00B8B6C5 /* DisabledSwipeBackNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5140221E1EF692AE00B8B6C5 /* DisabledSwipeBackNavigationController.swift */; };
+		514A07A41EF6C5A40073CEC2 /* Kinemai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 514A07A21EF6C5A40073CEC2 /* Kinemai.xcdatamodeld */; };
+		514A07B71EF6C89A0073CEC2 /* UploadedVideo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A07B51EF6C89A0073CEC2 /* UploadedVideo+CoreDataClass.swift */; };
+		514A07B81EF6C89A0073CEC2 /* UploadedVideo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A07B61EF6C89A0073CEC2 /* UploadedVideo+CoreDataProperties.swift */; };
+		514A07BA1EF6C96E0073CEC2 /* URL+directories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A07B91EF6C96E0073CEC2 /* URL+directories.swift */; };
+		51628F621F0340B70096C340 /* NotificationReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51628F611F0340B70096C340 /* NotificationReceiver.swift */; };
+		516FE8211F0368D20031EED7 /* UIApplication+ShowOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FE8201F0368D10031EED7 /* UIApplication+ShowOnboarding.swift */; };
+		5183A6CC1EF680D000035B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5183A6CB1EF680D000035B92 /* Main.storyboard */; };
+		51A18A0C1EEFE8C3003D65C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A18A0B1EEFE8C3003D65C5 /* AppDelegate.swift */; };
+		51A18A131EEFE8C3003D65C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A18A121EEFE8C3003D65C5 /* Assets.xcassets */; };
+		51A8F9AD1F0244FD00FBDBD8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A8F9AC1F0244FD00FBDBD8 /* SettingsViewController.swift */; };
+		51D6304E1EFCF9F000717F5D /* UIApplication+RegisterForPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D6304D1EFCF9F000717F5D /* UIApplication+RegisterForPushNotifications.swift */; };
+		51D630511EFD0E0700717F5D /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D630501EFD0E0700717F5D /* Backend.swift */; };
+		51D630551EFD193500717F5D /* VideoStatusUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D630541EFD193500717F5D /* VideoStatusUpdater.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		512881CD1EEFFD9D007605C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		479F9B8E61C62D4D9CEB2364 /* Pods-kinemai-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinemai-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-kinemai-ios/Pods-kinemai-ios.release.xcconfig"; sourceTree = "<group>"; };
+		514021FB1EF68CBD00B8B6C5 /* LibraryItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryItemViewController.swift; sourceTree = "<group>"; };
+		514021FD1EF68CBD00B8B6C5 /* LibraryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryListViewController.swift; sourceTree = "<group>"; };
+		514022001EF68CBD00B8B6C5 /* CameraScreenAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraScreenAssembly.swift; sourceTree = "<group>"; };
+		514022021EF68CBD00B8B6C5 /* CameraScreenModel+NextLevel delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraScreenModel+NextLevel delegates.swift"; sourceTree = "<group>"; };
+		514022031EF68CBD00B8B6C5 /* CameraScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraScreenModel.swift; sourceTree = "<group>"; };
+		514022041EF68CBD00B8B6C5 /* CameraScreenModelEventHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraScreenModelEventHandlers.swift; sourceTree = "<group>"; };
+		514022051EF68CBD00B8B6C5 /* NextLevelDelegate+DefaultImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NextLevelDelegate+DefaultImplementations.swift"; sourceTree = "<group>"; };
+		514022061EF68CBD00B8B6C5 /* NextLevelDeviceDelegate+DefaultImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NextLevelDeviceDelegate+DefaultImplementations.swift"; sourceTree = "<group>"; };
+		514022071EF68CBD00B8B6C5 /* NextLevelVideoDelegate+DefaultImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NextLevelVideoDelegate+DefaultImplementations.swift"; sourceTree = "<group>"; };
+		514022091EF68CBD00B8B6C5 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5140220A1EF68CBD00B8B6C5 /* CameraViewControllerEventHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewControllerEventHandlers.swift; sourceTree = "<group>"; };
+		5140220C1EF68CBD00B8B6C5 /* CameraScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraScreenViewModel.swift; sourceTree = "<group>"; };
+		5140220D1EF68CBD00B8B6C5 /* TimeInterval+textCaptureTimeLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+textCaptureTimeLeft.swift"; sourceTree = "<group>"; };
+		5140220F1EF68CBD00B8B6C5 /* VideoFragmentSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFragmentSelectionViewController.swift; sourceTree = "<group>"; };
+		5140221E1EF692AE00B8B6C5 /* DisabledSwipeBackNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisabledSwipeBackNavigationController.swift; sourceTree = "<group>"; };
+		514A07A31EF6C5A40073CEC2 /* Kinemai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kinemai.xcdatamodel; sourceTree = "<group>"; };
+		514A07B51EF6C89A0073CEC2 /* UploadedVideo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UploadedVideo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		514A07B61EF6C89A0073CEC2 /* UploadedVideo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UploadedVideo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		514A07B91EF6C96E0073CEC2 /* URL+directories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+directories.swift"; sourceTree = "<group>"; };
+		51628F611F0340B70096C340 /* NotificationReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationReceiver.swift; sourceTree = "<group>"; };
+		516FE8201F0368D10031EED7 /* UIApplication+ShowOnboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+ShowOnboarding.swift"; sourceTree = "<group>"; };
+		5183A6CB1EF680D000035B92 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		51A18A081EEFE8C3003D65C5 /* kinemai-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kinemai-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A18A0B1EEFE8C3003D65C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51A18A121EEFE8C3003D65C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51A18A171EEFE8C4003D65C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A8F9AC1F0244FD00FBDBD8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		51D6304C1EFCF72700717F5D /* kinemai-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "kinemai-ios.entitlements"; sourceTree = "<group>"; };
+		51D6304D1EFCF9F000717F5D /* UIApplication+RegisterForPushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+RegisterForPushNotifications.swift"; sourceTree = "<group>"; };
+		51D630501EFD0E0700717F5D /* Backend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		51D630541EFD193500717F5D /* VideoStatusUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStatusUpdater.swift; sourceTree = "<group>"; };
+		64B77B6A157E23F8509B2E14 /* Pods-kinemai-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinemai-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kinemai-ios/Pods-kinemai-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		86591667C42B634B4AB25F84 /* Pods_kinemai_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinemai_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51A18A051EEFE8C3003D65C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB9AB162271ED3C143805C6 /* Pods_kinemai_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		514021F81EF68CBD00B8B6C5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5140221E1EF692AE00B8B6C5 /* DisabledSwipeBackNavigationController.swift */,
+				51A8F9AE1F026CD400FBDBD8 /* Info */,
+				514021FE1EF68CBD00B8B6C5 /* VideoRecording */,
+				514021F91EF68CBD00B8B6C5 /* Library */,
+				51A8F9AB1F0244F200FBDBD8 /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		514021F91EF68CBD00B8B6C5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				514021FC1EF68CBD00B8B6C5 /* LibraryListScreen */,
+				514021FA1EF68CBD00B8B6C5 /* LibraryItemViewScreen */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		514021FA1EF68CBD00B8B6C5 /* LibraryItemViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				514021FB1EF68CBD00B8B6C5 /* LibraryItemViewController.swift */,
+			);
+			path = LibraryItemViewScreen;
+			sourceTree = "<group>";
+		};
+		514021FC1EF68CBD00B8B6C5 /* LibraryListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				514021FD1EF68CBD00B8B6C5 /* LibraryListViewController.swift */,
+			);
+			path = LibraryListScreen;
+			sourceTree = "<group>";
+		};
+		514021FE1EF68CBD00B8B6C5 /* VideoRecording */ = {
+			isa = PBXGroup;
+			children = (
+				514021FF1EF68CBD00B8B6C5 /* CameraScreen */,
+				5140220E1EF68CBD00B8B6C5 /* VideoFragmentSelectionScreen */,
+			);
+			path = VideoRecording;
+			sourceTree = "<group>";
+		};
+		514021FF1EF68CBD00B8B6C5 /* CameraScreen */ = {
+			isa = PBXGroup;
+			children = (
+				514022001EF68CBD00B8B6C5 /* CameraScreenAssembly.swift */,
+				514022011EF68CBD00B8B6C5 /* Model */,
+				5140220B1EF68CBD00B8B6C5 /* ViewModel */,
+				514022081EF68CBD00B8B6C5 /* View */,
+			);
+			path = CameraScreen;
+			sourceTree = "<group>";
+		};
+		514022011EF68CBD00B8B6C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				514022031EF68CBD00B8B6C5 /* CameraScreenModel.swift */,
+				514022021EF68CBD00B8B6C5 /* CameraScreenModel+NextLevel delegates.swift */,
+				514022041EF68CBD00B8B6C5 /* CameraScreenModelEventHandlers.swift */,
+				514022051EF68CBD00B8B6C5 /* NextLevelDelegate+DefaultImplementations.swift */,
+				514022061EF68CBD00B8B6C5 /* NextLevelDeviceDelegate+DefaultImplementations.swift */,
+				514022071EF68CBD00B8B6C5 /* NextLevelVideoDelegate+DefaultImplementations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		514022081EF68CBD00B8B6C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				514022091EF68CBD00B8B6C5 /* CameraViewController.swift */,
+				5140220A1EF68CBD00B8B6C5 /* CameraViewControllerEventHandlers.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5140220B1EF68CBD00B8B6C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5140220C1EF68CBD00B8B6C5 /* CameraScreenViewModel.swift */,
+				5140220D1EF68CBD00B8B6C5 /* TimeInterval+textCaptureTimeLeft.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5140220E1EF68CBD00B8B6C5 /* VideoFragmentSelectionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5140220F1EF68CBD00B8B6C5 /* VideoFragmentSelectionViewController.swift */,
+			);
+			path = VideoFragmentSelectionScreen;
+			sourceTree = "<group>";
+		};
+		514A07A11EF6C5A40073CEC2 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				514A07B91EF6C96E0073CEC2 /* URL+directories.swift */,
+				514A07B51EF6C89A0073CEC2 /* UploadedVideo+CoreDataClass.swift */,
+				514A07B61EF6C89A0073CEC2 /* UploadedVideo+CoreDataProperties.swift */,
+				514A07A21EF6C5A40073CEC2 /* Kinemai.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		51A189FF1EEFE8C3003D65C5 = {
+			isa = PBXGroup;
+			children = (
+				51A18A0A1EEFE8C3003D65C5 /* kinemai-ios */,
+				51A18A091EEFE8C3003D65C5 /* Products */,
+				DFF7FB469E5C2AB98FA4A494 /* Pods */,
+				BFC06269C14E884F58E9B908 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51A18A091EEFE8C3003D65C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51A18A081EEFE8C3003D65C5 /* kinemai-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51A18A0A1EEFE8C3003D65C5 /* kinemai-ios */ = {
+			isa = PBXGroup;
+			children = (
+				51D6304C1EFCF72700717F5D /* kinemai-ios.entitlements */,
+				51A18A0B1EEFE8C3003D65C5 /* AppDelegate.swift */,
+				51D6304D1EFCF9F000717F5D /* UIApplication+RegisterForPushNotifications.swift */,
+				516FE8201F0368D10031EED7 /* UIApplication+ShowOnboarding.swift */,
+				51628F611F0340B70096C340 /* NotificationReceiver.swift */,
+				51D6304F1EFD0DFA00717F5D /* Backend */,
+				514A07A11EF6C5A40073CEC2 /* Database */,
+				514021F81EF68CBD00B8B6C5 /* Screens */,
+				51A18A121EEFE8C3003D65C5 /* Assets.xcassets */,
+				5183A6CB1EF680D000035B92 /* Main.storyboard */,
+				51A18A171EEFE8C4003D65C5 /* Info.plist */,
+			);
+			path = "kinemai-ios";
+			sourceTree = "<group>";
+		};
+		51A8F9AB1F0244F200FBDBD8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				51A8F9AC1F0244FD00FBDBD8 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		51A8F9AE1F026CD400FBDBD8 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		51D6304F1EFD0DFA00717F5D /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				51D630501EFD0E0700717F5D /* Backend.swift */,
+				51D630541EFD193500717F5D /* VideoStatusUpdater.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		BFC06269C14E884F58E9B908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86591667C42B634B4AB25F84 /* Pods_kinemai_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF7FB469E5C2AB98FA4A494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64B77B6A157E23F8509B2E14 /* Pods-kinemai-ios.debug.xcconfig */,
+				479F9B8E61C62D4D9CEB2364 /* Pods-kinemai-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51A18A071EEFE8C3003D65C5 /* kinemai-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A18A1A1EEFE8C4003D65C5 /* Build configuration list for PBXNativeTarget "kinemai-ios" */;
+			buildPhases = (
+				3E33799925200112AA9BDE85 /* [CP] Check Pods Manifest.lock */,
+				51A18A041EEFE8C3003D65C5 /* Sources */,
+				51A18A051EEFE8C3003D65C5 /* Frameworks */,
+				51A18A061EEFE8C3003D65C5 /* Resources */,
+				D43A7DA862B38318CA154007 /* [CP] Embed Pods Frameworks */,
+				1EE6CE7FCD49460048D9A838 /* [CP] Copy Pods Resources */,
+				512881CD1EEFFD9D007605C2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kinemai-ios";
+			productName = "kinemai-ios";
+			productReference = 51A18A081EEFE8C3003D65C5 /* kinemai-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51A18A001EEFE8C3003D65C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pavel Krasnobrovkin";
+				TargetAttributes = {
+					51A18A071EEFE8C3003D65C5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C785C9X8KV;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 51A18A031EEFE8C3003D65C5 /* Build configuration list for PBXProject "kinemai-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51A189FF1EEFE8C3003D65C5;
+			productRefGroup = 51A18A091EEFE8C3003D65C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51A18A071EEFE8C3003D65C5 /* kinemai-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51A18A061EEFE8C3003D65C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5183A6CC1EF680D000035B92 /* Main.storyboard in Resources */,
+				51A18A131EEFE8C3003D65C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EE6CE7FCD49460048D9A838 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kinemai-ios/Pods-kinemai-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E33799925200112AA9BDE85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D43A7DA862B38318CA154007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kinemai-ios/Pods-kinemai-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51A18A041EEFE8C3003D65C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514022191EF68CBD00B8B6C5 /* CameraViewController.swift in Sources */,
+				514022171EF68CBD00B8B6C5 /* NextLevelDeviceDelegate+DefaultImplementations.swift in Sources */,
+				514022141EF68CBD00B8B6C5 /* CameraScreenModel.swift in Sources */,
+				5140221C1EF68CBD00B8B6C5 /* TimeInterval+textCaptureTimeLeft.swift in Sources */,
+				51D630511EFD0E0700717F5D /* Backend.swift in Sources */,
+				514A07A41EF6C5A40073CEC2 /* Kinemai.xcdatamodeld in Sources */,
+				51628F621F0340B70096C340 /* NotificationReceiver.swift in Sources */,
+				514022181EF68CBD00B8B6C5 /* NextLevelVideoDelegate+DefaultImplementations.swift in Sources */,
+				5140221B1EF68CBD00B8B6C5 /* CameraScreenViewModel.swift in Sources */,
+				51A18A0C1EEFE8C3003D65C5 /* AppDelegate.swift in Sources */,
+				5140221A1EF68CBD00B8B6C5 /* CameraViewControllerEventHandlers.swift in Sources */,
+				514022131EF68CBD00B8B6C5 /* CameraScreenModel+NextLevel delegates.swift in Sources */,
+				516FE8211F0368D20031EED7 /* UIApplication+ShowOnboarding.swift in Sources */,
+				514A07BA1EF6C96E0073CEC2 /* URL+directories.swift in Sources */,
+				51D6304E1EFCF9F000717F5D /* UIApplication+RegisterForPushNotifications.swift in Sources */,
+				514022111EF68CBD00B8B6C5 /* LibraryListViewController.swift in Sources */,
+				514022161EF68CBD00B8B6C5 /* NextLevelDelegate+DefaultImplementations.swift in Sources */,
+				5140221F1EF692AE00B8B6C5 /* DisabledSwipeBackNavigationController.swift in Sources */,
+				514A07B71EF6C89A0073CEC2 /* UploadedVideo+CoreDataClass.swift in Sources */,
+				51D630551EFD193500717F5D /* VideoStatusUpdater.swift in Sources */,
+				514022121EF68CBD00B8B6C5 /* CameraScreenAssembly.swift in Sources */,
+				514022151EF68CBD00B8B6C5 /* CameraScreenModelEventHandlers.swift in Sources */,
+				5140221D1EF68CBD00B8B6C5 /* VideoFragmentSelectionViewController.swift in Sources */,
+				514022101EF68CBD00B8B6C5 /* LibraryItemViewController.swift in Sources */,
+				514A07B81EF6C89A0073CEC2 /* UploadedVideo+CoreDataProperties.swift in Sources */,
+				51A8F9AD1F0244FD00FBDBD8 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		51A18A181EEFE8C4003D65C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51A18A191EEFE8C4003D65C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51A18A1B1EEFE8C4003D65C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B77B6A157E23F8509B2E14 /* Pods-kinemai-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "kinemai-ios/kinemai-ios.entitlements";
+				DEVELOPMENT_TEAM = C785C9X8KV;
+				INFOPLIST_FILE = "kinemai-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinemai.golf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51A18A1C1EEFE8C4003D65C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479F9B8E61C62D4D9CEB2364 /* Pods-kinemai-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "kinemai-ios/kinemai-ios.entitlements";
+				DEVELOPMENT_TEAM = C785C9X8KV;
+				INFOPLIST_FILE = "kinemai-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinemai.golf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51A18A031EEFE8C3003D65C5 /* Build configuration list for PBXProject "kinemai-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A18A181EEFE8C4003D65C5 /* Debug */,
+				51A18A191EEFE8C4003D65C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A18A1A1EEFE8C4003D65C5 /* Build configuration list for PBXNativeTarget "kinemai-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A18A1B1EEFE8C4003D65C5 /* Debug */,
+				51A18A1C1EEFE8C4003D65C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		514A07A21EF6C5A40073CEC2 /* Kinemai.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				514A07A31EF6C5A40073CEC2 /* Kinemai.xcdatamodel */,
+			);
+			currentVersion = 514A07A31EF6C5A40073CEC2 /* Kinemai.xcdatamodel */;
+			path = Kinemai.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 51A18A001EEFE8C3003D65C5 /* Project object */;
+}

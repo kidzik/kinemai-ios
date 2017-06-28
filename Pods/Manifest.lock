@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Bond (6.2.6):
+    - Diff (~> 0.4)
+    - ReactiveKit (~> 3.5.3)
+  - Diff (0.5.3)
+  - MagicalRecord (2.3.3):
+    - MagicalRecord/Core (= 2.3.3)
+  - MagicalRecord/Core (2.3.3)
+  - MBProgressHUD (1.0.0)
+  - NextLevel (0.5.1)
+  - Onboard (2.3.1)
+  - PryntTrimmerView (1.0.0)
+  - ReactiveKit (3.5.4)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire`, tag `4.4.0`)
+  - Bond (= 6.2.6)
+  - MagicalRecord (from `https://github.com/magicalpanda/MagicalRecord`, tag `v2.3.3`)
+  - MBProgressHUD (= 1.0.0)
+  - NextLevel (= 0.5.1)
+  - Onboard (= 2.3.1)
+  - PryntTrimmerView (= 1.0.0)
+  - ReactiveKit (= 3.5.4)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire
+    :tag: 4.4.0
+  MagicalRecord:
+    :git: https://github.com/magicalpanda/MagicalRecord
+    :tag: v2.3.3
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire
+    :tag: 4.4.0
+  MagicalRecord:
+    :git: https://github.com/magicalpanda/MagicalRecord
+    :tag: v2.3.3
+
+SPEC CHECKSUMS:
+  Alamofire: 4c2bf7fa03c4a626163606de0a417568c270575e
+  Bond: 0d7a52e9aec644c3b4985ceeb224a402b1efd691
+  Diff: befa1d19c32726b2b36ce915d98793e2fbde8dcc
+  MagicalRecord: e3dfdee87c234c6d460dbd5d8a32e3cb4de223aa
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  NextLevel: 42fedc45bfe83188c46afd31e9172bbaba29aa0f
+  Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
+  PryntTrimmerView: 700a837c5076e454595bf845fb9ae7c544acc39d
+  ReactiveKit: 4fc2a23db33777358abe93453ece3a69011adeec
+
+PODFILE CHECKSUM: 129d77c6209a9156c277478680b1e9e8337d8a57
+
+COCOAPODS: 1.2.1
