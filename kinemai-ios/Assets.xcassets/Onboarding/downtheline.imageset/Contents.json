@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "wallpaper-2.jpg",
+      "filename" : "dtl.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "wallpaper-1.jpg",
+      "filename" : "dtl-1.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "wallpaper.jpg",
+      "filename" : "dtl-2.jpg",
       "scale" : "3x"
     }
   ],
